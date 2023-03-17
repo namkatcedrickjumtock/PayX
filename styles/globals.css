@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .hero-icons {
+        @apply bg-gray-800 text-[10px] text-white cursor-pointer whitespace-nowrap rounded-[20px]
+    }
+}
