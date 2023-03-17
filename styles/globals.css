@@ -4,7 +4,14 @@
 
 
 @layer components {
+
     .hero-icons {
         @apply bg-gray-800 text-[10px] text-white cursor-pointer whitespace-nowrap rounded-[20px]
     }
+}
+
+@layer base{
+  body{
+    @apply bg-[#06202A] text-gray-300;
+  }
 }
